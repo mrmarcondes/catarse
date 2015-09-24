@@ -10,6 +10,8 @@ gem 'protected_attributes'
 gem 'rails-observers'
 gem 'rb-readline'
 
+gem 'rails_12factor', group: :production
+
 gem 'sidekiq',  '~> 3.1.3'
 
 # Turns every field on a editable one
